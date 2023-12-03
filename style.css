@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* == Nav section == */
+
+.all-nav-section {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5d0fe;
+}
+
+/* == Nav section end == */
+
+/* === togol sideber === */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0369a1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f5f3f3;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f70505;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* === togol sideber end === */
+
+/* ===== search button  ====== */
+
+.src-button {
+  padding: 10px 10px;
+  position: relative;
+  border-radius: 5px 0 0 5px;
+}
+.src-button-icn {
+  padding: 10px;
+  margin-left: 2px;
+  border-radius: 0 5px 5px 0;
+  margin: 0;
+  position: absolute;
+}
+.src-button-icn:hover {
+  background-color: #ca3535;
+}
