@@ -67,36 +67,12 @@ body {
 /* === togol sideber end === */
 
 /* ===== search button  ====== */
-.topnav {
-  display: flex;
-} */
-
-.search-container {
-  display: flex;
-  padding: 13px 30px;
-  position: relative;
-  border-radius: 7px 0 0 7px;
-}
-.search-container .src-button-icn {
-  margin-left: 2px;
-  border-radius: 0 7px 7px 0;
-  margin: 0;
-  position: absolute;
-}
-.search-container .src-button-icn button i {
-  background-color: #0369a1;
-  font-size: 16px;
-  padding: 13px 20px;
-}
-.src-button-icn i:hover {
-  background-color: #ca3535;
-}
-
 
 /* === sign up button === */
+
 input[type="text"],
 input[type="password"] {
-  width: 100%;
+  width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -132,7 +108,6 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #f44336;
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -144,21 +119,21 @@ button:hover {
 
 /* Add padding to container elements */
 .container {
-  padding: 16px;
+  padding: 5px;
 }
 
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  position: fixed;
+  z-index: 1;
+  left: 30%;
+  top: 15%;
+  border-radius: 10px;
+  width: 600px; /* Full width */
+  height: 580px; /* Full height */
   background-color: #474e5d;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 /* Modal Content/Box */
